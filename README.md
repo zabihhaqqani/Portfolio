@@ -1,7 +1,7 @@
 # Portfolio
-Hi I am Zabih 
+Hi I am Zabih.
 
-This is my Portfolio
+This is my Portfolio.
 
 It has been made using :
 
