@@ -1,8 +1,12 @@
 # Portfolio
-Hi I am Zabih currently doing my engineering in electrical.
+Hi I am Zabih 
+
 This is my Portfolio
 
 It has been made using :
-HTML 
-CSS
-Javascript
+
+1.HTML
+
+2.CSS
+
+3.Javascript
