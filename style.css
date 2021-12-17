@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap");
 
 :root {
   --primary-color: #4e26e0;
+
   --dark-gray: #6b7280;
   --offwhite: #ebdede91;
 }
@@ -41,7 +42,7 @@ hr {
 .link-secondary {
   color: var(--primary-color);
   border-radius: 0.5rem;
-  border: 1px solid var(--primary-color);
+  border: 0.1px solid var(--primary-color);
 }
 
 .list-non-bullet {
@@ -92,7 +93,7 @@ hr {
 }
 
 .hero .hero-heading {
-    text-align: center;
+  text-align: center;
   padding-top: 1rem;
   color: var(--dark-gray);
 }
@@ -127,9 +128,9 @@ hr {
 .footer .link {
   color: white;
 }
-.footer .footer-header{
-    font-weight: bold;
-    font-size: large;
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
 }
 
 .footer ul {
