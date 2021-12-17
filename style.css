@@ -15,6 +15,13 @@ hr {
   margin: 2.5rem 0rem;
 }
 
+/* spaces */
+.margin-spaces{
+  margin: 1rem 0rem;
+  padding: 1rem;
+}
+
+
 /* container */
 .container {
   padding: 0rem 1rem;
