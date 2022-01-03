@@ -16,11 +16,10 @@ hr {
 }
 
 /* spaces */
-.margin-spaces{
+.margin-spaces {
   margin: 1rem 0rem;
   padding: 1rem;
 }
-
 
 /* container */
 .container {
@@ -35,7 +34,7 @@ hr {
 /* links */
 .link {
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   /* margin-top: 5rem;
   margin-bottom: 1rem; */
 }
@@ -130,7 +129,6 @@ hr {
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
-  
 }
 
 .footer .link {
@@ -143,4 +141,17 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  #inputText,
+  #outputText {
+    width: 100%;
+  }
+  a {
+    font-size: 15px;
+  }
+  .footer ul {
+    padding-inline-start: 0px;
+  }
 }
