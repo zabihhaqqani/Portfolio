@@ -9,6 +9,7 @@
 body {
   margin: 0px;
   font-family: "inter";
+  background-color: white;
 }
 hr {
   margin: 2.5rem 0rem;
@@ -91,7 +92,7 @@ hr {
 }
 
 .hero .hero-img {
-  max-width: 300px;
+  max-width: 30 0px;
   display: block;
   margin: auto;
   padding-top: 10px;
