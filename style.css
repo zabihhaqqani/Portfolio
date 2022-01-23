@@ -155,3 +155,10 @@ hr {
     padding-inline-start: 0px;
   }
 }
+/* for project and blog images */
+.hero-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
