@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=IBM+Plex+Sans+Thai+Looped&family=Lato&family=Montserrat&family=Roboto&family=Rowdies&display=swap');
 :root {
   --primary-color: #4e26e0;
   --dark-gray: #6b7280;
@@ -8,7 +7,7 @@
 
 body {
   margin: 0px;
-  font-family: "montserrat";
+  font-family: 'Montserrat', sans-serif;
   background-color: white;
 }
 hr {
