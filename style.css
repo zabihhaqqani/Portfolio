@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;600;700;800&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;1,300;1,400&family=Montserrat&family=Poppins:wght@400;500;600;700;800&family=Readex+Pro&family=Roboto&display=swap');
 :root {
   --primary-color: #4e26e0;
   --dark-gray: #6b7280;
   --offwhite: #ebdede65;
 }
 
-
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0px;
@@ -69,7 +74,9 @@ p {
   text-align: center;
   display: inline-block;
   margin: 0 auto;
+  margin: 0.5rem;
 }
+
 
 .center-links {
 
@@ -98,34 +105,62 @@ p {
 
 /* navigation */
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
+nav{
   background-color: var(--primary-color);
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
   color: white;
-  padding: 1rem;
-  border-bottom-left-radius: 1rem;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
 }
 
-.navigation .nav-brand {
-  font-size: 28px;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
+nav ul {
+  float: right;
+  margin-right: 20px;
 }
 
-.navigation {
-  display: flex;
-  align-content: right;
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
 
-.navigation .link {
+nav ul li a{
   color: white;
-}
-
-.navigation .link-active {
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
   font-weight: 500;
 }
+.navbar.active, .navbar:hover{
+  background-color: #3f22a7;
+  border-radius: 3px;
+  transition: .25s;
+}
+
+.checkbtn{
+  font-size: 32px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+
+}
+
+
+
+
+
 
 /* header */
 
@@ -140,7 +175,7 @@ p {
   max-width: 300px;
   display: block;
   margin: auto;
-  padding-top: 10px;
+  padding-top: 90px;
   padding-bottom: 10px;
 }
 
@@ -177,7 +212,7 @@ p {
   padding: 2rem 1rem;
   text-align: center;
   color: white;
-  border-top-right-radius: 1rem;
+  
 }
 
 .footer .link {
@@ -205,23 +240,18 @@ p {
 /* technologies section */
 .tech {
   padding: 1rem;
-  height: 5rem;
+  height: 150px;
   width: 5rem;
 }
-   .nav-pills {
-    display: block;
-    
-  }
 
-.menu {
-  border: none;
-  font-size: 2rem;
-  background-color: #4e26e0;
-  color: rgb(255, 255, 255);
-  display: none;
+.nav-pills {
+  display: block;
+
 }
 
-@media only screen and (max-width: 700px) {
+
+
+@media only screen and (max-width: 962px) {
 
   #inputText,
   #outputText {
@@ -230,28 +260,73 @@ p {
 
   /* technologies */
   .tech {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 80px;
+    width: 80px;
 
   }
-/* .menu {
-     display: block;
-  } */
+
+
   a {
     font-size: 15px;
   }
-p{
-  font-size: 16px;
-}
+
+  p {
+    font-size: 16px;
+  }
+
   .nav-pills {
     display: block;
-    
+
   }
 
   .footer ul {
     padding-inline-start: 0px;
   }
 
-  /* menu */
+/* navbar */
+label.logo{
+  font-size: 25px;
+  padding-left: 40px;
+  padding-right: 0px;
+}
+
+nav ul li a {
+  font-size: 16px;
+}
+
+
+}
+
+@media (max-width: 962px){
+  .checkbtn{
+    display: block;
+  }
+  .top-nav{
+    position: fixed;
+    width: 100%;
+    height: 60vh; 
+    background-color: #1b1a1a;
+    left: -100%;
+    top: 80px;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li {
+    display: block;
+    font-size: 20px;
+  }
+  nav ul li a {
+    font-size: 18px;
+  }
   
+  #check:checked ~ ul{
+    left: 0;
+  }
+  nav ul {
+  
+margin-right: 0px;
+}
+nav{
+  position: fixed;
+}
 }
