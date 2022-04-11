@@ -13,6 +13,34 @@
   box-sizing: border-box;
 }
 
+/* custom scoll bar */
+
+::-webkit-scrollbar {
+  width: 0.6vw
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#4e26e0;
+  border-radius: 5px;
+  
+}
+
+/* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color); 
+} 
+
+html{
+  scroll-behavior: smooth;
+  scrollbar-width: normal;
+}
+
 body {
   margin: 0px;
   font-family: 'Poppins', sans-serif;
@@ -175,7 +203,7 @@ nav ul li a{
   max-width: 300px;
   display: block;
   margin: auto;
-  padding-top: 90px;
+  padding-top: 12px;
   padding-bottom: 10px;
 }
 
@@ -293,8 +321,9 @@ label.logo{
 nav ul li a {
   font-size: 16px;
 }
-
-
+ .hero .hero-img{ 
+   padding-top: 100px;
+ }
 }
 
 @media (max-width: 962px){
