@@ -135,7 +135,7 @@ p {
 
 nav{
   background-color: var(--primary-color);
-  height: 80px;
+  height: 5rem;
   width: 100%;
 }
 
@@ -143,7 +143,7 @@ label.logo {
   color: white;
   font-size: 35px;
   line-height: 80px;
-  padding: 0 100px;
+  padding:  5rem;
   font-weight: bold;
 }
 
@@ -237,24 +237,27 @@ nav ul li a{
 
 .footer {
   background-color: var(--primary-color);
-  padding: 2rem 1rem;
+  padding: 2rem ;
   text-align: center;
   color: white;
+  height:5rem;
   
 }
+/* .social-icons{
+
+  padding-left: 5rem;
+  
+} */
 
 .footer .link {
   color: white;
 }
 
-.footer .footer-header {
-  font-weight: 600;
-  font-size: large;
+.rights{
+ display: flex;
+ justify-content: right;
 }
 
-.footer ul {
-  padding-inline-start: 0px;
-}
 
 /* for project and blog images */
 .hero-img {
@@ -276,7 +279,6 @@ nav ul li a{
   display: block;
 
 }
-
 
 
 @media only screen and (max-width: 962px) {
@@ -307,9 +309,6 @@ nav ul li a{
 
   }
 
-  .footer ul {
-    padding-inline-start: 0px;
-  }
 
 /* navbar */
 label.logo{
@@ -324,6 +323,7 @@ nav ul li a {
  .hero .hero-img{ 
    padding-top: 100px;
  }
+
 }
 
 @media (max-width: 962px){
