@@ -280,7 +280,9 @@ nav ul li a{
   display: block;
 
 }
-
+.title{
+  padding-top: 5px;
+}
 
 @media only screen and (max-width: 962px) {
 
@@ -295,7 +297,9 @@ nav ul li a{
     width: 80px;
 
   }
-
+.title,#prog{
+  padding-top: 90px;
+}
 
   a {
     font-size: 15px;
